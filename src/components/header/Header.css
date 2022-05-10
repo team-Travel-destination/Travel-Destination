@@ -1,0 +1,14 @@
+.header {
+  width: 100%;
+  color: aliceblue;
+  height: 10rem;
+  background-color: #e73e67;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header > h1 {
+  margin-left: 2rem;
+}

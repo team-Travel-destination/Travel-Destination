@@ -1,10 +1,11 @@
+import "./Header.css";
 
 function Header(props) {
-    return (
-        <>
-            <h1>Travel Destination</h1>
-        </>
-    )
+  return (
+    <div className="header">
+      <h1>Travel Destination</h1>
+    </div>
+  );
 }
 
-export default Header
+export default Header;
