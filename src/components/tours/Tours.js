@@ -6,7 +6,7 @@ const Tours = () => {
     <div className="con-tours">
       {db.map((data) => (
         <div className="img-container">
-          <img className="img" src={data.image} />
+          <img className="img" src={data.image} alt="sight seeing" />
           {data.name}
         </div>
       ))}
