@@ -1,0 +1,21 @@
+.header {
+  width: 100%;
+  color: aliceblue;
+  height: 7rem;
+  background-color: #85f4ff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header > h1 {
+  margin-left: 2rem;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}

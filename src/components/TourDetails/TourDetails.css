@@ -1,0 +1,50 @@
+.tour-details {
+  background-color: #effffd;
+}
+.city-name {
+  font-size: 4rem;
+  padding: 1rem 0;
+}
+.sight-img {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+.name-price {
+  display: flex;
+  justify-content: center;
+}
+.price {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 4rem;
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+}
+.not-show-more {
+  max-height: 10rem;
+  width: 100%;
+}
+
+.show-more {
+  overflow: hidden;
+  max-height: 2rem;
+  width: 300px;
+}
+
+.text {
+  transition: all 300ms ease-in-out;
+}
+
+.onclick {
+  cursor: pointer;
+  font-weight: 1000;
+  margin-bottom: 1rem;
+}
+.stuff {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
