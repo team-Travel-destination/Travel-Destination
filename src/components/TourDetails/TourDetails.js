@@ -2,6 +2,7 @@ import "./TourDetails.css";
 import { useParams } from "react-router-dom";
 import db from "../../data/db.json";
 import { useState } from "react";
+
 function TourDetails(props) {
   const [show, setShow] = useState(true);
   const toggle = () => {
