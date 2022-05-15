@@ -1,7 +1,12 @@
 import "./Tour.css";
-import { useParams } from "react-router-dom";
-function Tour(props) {
-  
-  return <div></div>;
+// import data from "../../../data/db.json";
+
+
+function Tour({ tour }) {
+  return (
+    < div className="img-container" >
+      <img className="img" src={tour.image} alt="sight seeing" />
+      <h2>{tour.name}</h2>
+    </div>);
 }
 export default Tour;
